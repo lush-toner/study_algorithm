@@ -17,7 +17,6 @@ int main(void)
 {
     vector<int> v;
     int n, m, k, d; // n : 총 개수, m : 총 연산, k : 최대 연속 사용, d : 받을 숫자자
-    int arr[5];
     int max, smax;
     int result = 0;
 
