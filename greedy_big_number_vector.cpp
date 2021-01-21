@@ -15,27 +15,26 @@ using namespace std;
 
 int main(void)
 {
-    vector <int> v;
+    vector<int> v;
     int n, m, k, d; // n : 총 개수, m : 총 연산, k : 최대 연속 사용, d : 받을 숫자자
     int arr[5];
     int max, smax;
     int result = 0;
-    
 
     scanf("%d%d%d", &n, &m, &k);
 
-    for(int i = 0; i < n; i++)
+    for (int i = 0; i < n; i++)
     {
         scanf("%d", &d);
         v.push_back(d);
     }
-    
+
     sort(v.begin(), v.end());
 
-    max = v[n-1];
-    smax = v[n-2];
+    max = v[n - 1];
+    smax = v[n - 2];
 
-    result = max * k * (m / k) + smax * ( m % k );
+    result = max * k * (m / k) + smax * (m % k);
 
     cout << result << endl;
 }
