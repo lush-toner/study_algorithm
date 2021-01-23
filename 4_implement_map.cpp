@@ -3,10 +3,7 @@
 이것이 취업을 위한 코딩 테스트다 with 파이썬 참고
 */
 
-
-
-
-/* 아직 완성 안됨됨 */
+/* 아직 완성 안됨 */
 #include <iostream>
 using namespace std;
 
