@@ -97,5 +97,11 @@ int main()
     cin >> temp;
     stack.create(temp);
 
-    
+    while (select_index !=9)
+    {
+        // 사용자에게 선택할 수 있는 기능
+        cout << "\n\n1. Stack에 "
+    }
+
+
 }
