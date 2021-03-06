@@ -66,5 +66,14 @@
     <ClCompile Include="5_1_stack_no_stl_class_prac.cpp">
       <Filter>소스 파일</Filter>
     </ClCompile>
+    <ClCompile Include="5_2_queue_stl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5_2_queue_no_stl.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
+    <ClCompile Include="5_2_queue_no_stl_prac.cpp">
+      <Filter>소스 파일</Filter>
+    </ClCompile>
   </ItemGroup>
 </Project>

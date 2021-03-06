@@ -33,6 +33,7 @@ Stack::Stack() // 생성자
 Stack::~Stack() // 소멸자
 {
 	if (p_stack != NULL) delete[] p_stack; // p_stack이 존재하면 소멸
+	cout << "Delete Stack" << endl;
 }
 
 // 스택 생성 -> 스택에 사용할 size를 size 변수로 정의
@@ -85,7 +86,6 @@ void Stack::show_stack()
 		cout << "총 " << stack_count << "개의 value가 저장되어 있다." << endl;
 	}
 }
-
 
 int main(void)
 {
